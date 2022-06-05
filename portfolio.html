@@ -24,8 +24,8 @@
                 </ul>
             </nav>
             <ul class="contact-info">
-                <li class="contact-list"><a class="contact-info-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contact-list"><a class="contact-info-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-list"><a class="contact-info-item link" href="mailto:info@devstudio.com"> <svg class="contact-info-pic" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a></li>
+                <li class="contact-list"><a class="contact-info-item link" href="tel:+380961111111"> <svg class="contact-info-pic" width="10" height="16"><use href="./images/sprite.svg#smartphone"></use></svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -34,11 +34,11 @@
            <div class="container">
             <h1 class="visually-hidden">Наши работы (скрыть)</h1>
             <ul class="secondary-navigation-list">
-                <li> <button type="button" class="secondary-navigation-list-button">Все</button> </li>
-                <li> <button type="button" class="secondary-navigation-list-button">Веб-сайты</button> </li>
-                <li> <button type="button" class="secondary-navigation-list-button">Приложения</button> </li>
-                <li> <button type="button" class="secondary-navigation-list-button">Дизайн</button> </li>
-                <li> <button type="button" class="secondary-navigation-list-button">Маркетинг</button> </li>
+                <li class="secondary-nav-list"> <button type="button" class="secondary-navigation-list-button">Все</button> </li>
+                <li class="secondary-nav-list"> <button type="button" class="secondary-navigation-list-button">Веб-сайты</button> </li>
+                <li class="secondary-nav-list"> <button type="button" class="secondary-navigation-list-button">Приложения</button> </li>
+                <li class="secondary-nav-list"> <button type="button" class="secondary-navigation-list-button">Дизайн</button> </li>
+                <li class="secondary-nav-list"> <button type="button" class="secondary-navigation-list-button">Маркетинг</button> </li>
             </ul>
             <ul class="our-works">
                 <li class="our-works-item"><img src="./images/portfolio/technokryak.jpg" alt="Технокряк Веб-сайт" width="370" height="294" ><div class="our-works-wrap"><h2 class="our-works-name">Технокряк</h2><p class="our-works-description">Веб-сайт</p>  </div></li>
@@ -55,14 +55,39 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <a href="index.html" class="footer-logo link"><span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span></a>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <a href="index.html" class="footer-logo link"><span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span></a>
         <address>
-            <a href="https://goo.gl/maps/5dYaAfMvRvqoUdPU8" target="_blank" rel="noopener noreferrer" class="address link">г. Киев, пр-т Леси Украинки, 26</a><br>
-            <a href="mailto:info@devstudio.com" class="footer-contact-info link">info@devstudio.com</a><br>
-            <a href="tel:+380961111111" class="footer-contact-info link">+38 096 111 11 11</a><br>
+            <ul class="footer-address">
+                <li class="footer-address-item"><a href="https://goo.gl/maps/5dYaAfMvRvqoUdPU8" target="_blank" rel="noopener noreferrer" class="address link">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="footer-address-item"><a href="mailto:info@devstudio.com" class="footer-contact-info link">info@devstudio.com</a></li>
+                <li class="footer-address-item"><a href="tel:+380961111111" class="footer-contact-info link">+38 096 111 11 11</a></li>
+            </ul>
+            </div>
         </address>
+        <div class="join-us">
+            <h2>ПРИСОЕДИНЯЙТЕСЬ</h2>
+            <ul class="footer-social-list list">
+            <li class="footer-social-list-item">
+                <a href="" class="footer-social-list-link">
+                    <svg class="footer-social-list-icon" height="20" width="20">
+                        <use href="./images/sprite.svg#instagram"></use></svg></a></li>
+            <li class="footer-social-list-item">
+                <a href="" class="footer-social-list-link">
+                    <svg class="footer-social-list-icon" height="20" width="20">
+                        <use href="./images/sprite.svg#twitter"></use></svg></a></li>
+            <li class="footer-social-list-item">
+                <a href="" class="footer-social-list-link">
+                    <svg class="footer-social-list-icon" height="20" width="20">
+                        <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+            <li class="footer-social-list-item">
+                <a href="" class="footer-social-list-link">
+                    <svg class="footer-social-list-icon" height="20" width="20">
+                        <use href="./images/sprite.svg#linkedin"></use></svg></a></li>            
+                </ul>
         </div>
-    </footer>
+        </div>
+        </footer>
     </body>
 </html>
