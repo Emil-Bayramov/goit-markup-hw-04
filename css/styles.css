@@ -347,6 +347,7 @@ img {
 .social-list{
     display: flex;
     justify-content: center;
+    margin-top: 16px;
 }
 .social-list-icon{
     fill: #AFB1B8;
